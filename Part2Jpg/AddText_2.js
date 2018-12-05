@@ -11,8 +11,12 @@ window.onload = function (e) {
         ctx.drawImage(imgtarget, 0, 0);
     }
 
-
-    inp.onchange = function (e) {
+    /*
+	onchange
+	onblur
+	onfocus
+	*/
+    inp.onblur = function (e) {
         ctx.font = "36pt Verdana";
         var txt = e.target.value;
         if (txt.length > 0) {
