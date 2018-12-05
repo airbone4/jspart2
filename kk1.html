@@ -1,0 +1,20 @@
+﻿<script>
+// by value (primitives)
+function f1(k) {
+return k = k+1;
+}
+var a = 3;
+console.log("a is " + a);
+var b=f1(a);
+console.log("a is " + a);
+
+function f2(k)
+{
+  k.name="mary";
+ return k;
+}
+var a={name:"john", age:90};
+console.log(a.name);
+f2(a);
+console.log(a.name);
+</script>
