@@ -1,0 +1,10 @@
+wang5
+airways1@hotmail.com
+com.tw.z
+name;1
+UDID: 
+a6a53e91a2064dfef79a1ea3ad4117933757c66f
+
+應該也可以用這個
+2D4B87350609342980CB144F72FD2E66B66AEF6C
+網路得知UUID： http://www.easy-udid.com/
