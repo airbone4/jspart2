@@ -35,6 +35,6 @@ function dogetfile()
     lks = adoc.links;
     getNext(0);
 }
-app=window.open(); //open 裡面如果有東西,會跟目前文件的伺服器要求,當然會拿不到。
+app=window.open(); //open 裡面如果有URL,會跟目前文件的伺服器要求,當然會拿不到。
 adoc=app.document;
 getlink(adoc).then(dogetfile)

@@ -61,7 +61,8 @@
     var reader = new FileReader();
     reader.onload = function (e) {
       var returnedURL = e.target.result;
-      var returnedBase64 = returnedURL.replace(/^[^,]+,/, '');
+      //e.g.: returnedURL = "data:image/png;base64,iVBORw0KGgoA....
+      var returnedBase64 = returnedURL.replace(/^[^,]+,/, ''); 
       log('xhr.response (in base64) is: ' + returnedBase64);
       log('is this the expected base64? ' + (returnedBase64 === base64));
     };
